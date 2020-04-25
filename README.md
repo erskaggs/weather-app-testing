@@ -1,4 +1,4 @@
-[![erskaggs](https://circleci.com/gh/erskaggs/weather-app-test.svg?style=shield)](https://circleci.com/gh/erskaggs/weather-app-testing)
+[![circleci](https://circleci.com/gh/erskaggs/weather-app-testing.svg?style=shield)](https://circleci.com/gh/erskaggs/weather-app-testing)
 
 #weather-app-testing
 
