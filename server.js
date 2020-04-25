@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 const request = require('request');
 const app = express()
 
-const apiKey = '*****************';
+const apiKey = process.env.APIKEY;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({
