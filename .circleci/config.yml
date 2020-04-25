@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@1.1.6
+  heroku: circleci/heroku@0.0.10
 jobs:
   build-and-test:
     executor:
@@ -14,9 +15,6 @@ workflows:
     build-and-test:
       jobs:
         - build-and-test
-orbs:
-  heroku: circleci/heroku@0.0.10
-workflows:
-  heroku_deploy:
+    heroku_deploy:
     jobs:
       - heroku/deploy-via-git
